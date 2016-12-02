@@ -1,0 +1,10 @@
+//takes an array and returns a new array with the elements reversed
+function reverseArray(arr){
+    var newArr = [];
+    var x = 0;
+    for(var i = arr.length; i > 0 ; i--){
+	var newArr[x] = arr[i];
+	x++;
+    }
+    return newArr;
+}

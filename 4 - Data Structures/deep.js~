@@ -1,0 +1,9 @@
+//
+function deepEqual(obj1, obj2){
+    //are they identical?
+    if (obj1  === obj2)
+	return true;
+    if(!(typeof obj1 == "object" && typeof obj2 == "object"))
+	return false;
+
+}
