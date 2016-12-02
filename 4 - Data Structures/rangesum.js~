@@ -1,7 +1,0 @@
-function range(start, end){
-    var nums = [];
-    for(int i = start; i <= end;i++){
-	nums.push(i);
-    }
-    return nums;
-}
