@@ -1,0 +1,31 @@
+(1) Change Parser.hs as indicated in the file.
+
+40 points.
+
+(2) Change Interpreter.hs as indicated in the file.
+
+40 points.
+
+(3) Write a program in the new language that we have implemented, to
+check whether a given number is prime (input in the variable x, output
+in the variable y, where y should be zero for false, and non-zero for
+true). Test it using the Main program (supplied), after you have
+solved exercises 1 and 2.
+
+Please write your program in prime.runxy (which is empty at the
+moment), so our TestBench.hs can find it easily.
+
+10 points.
+
+Submission instructions: Keep the names of the files as given. Then
+create a zip file with Parser.hs, Interpreter.hs and
+primes.runxy. Call the zip file lab5.zip and upload it to canvas.
+
+How to create the zip file from the command line:
+
+If your working folder with your files is called lab5, outside lab5,
+run
+
+ $ zip -r lab5.zip lab5
+
+(This will also include the additional files given to you, but that's ok.)
