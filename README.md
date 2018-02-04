@@ -1,0 +1,1 @@
+This repository merges a bunch of repos that contained basic exercises from books and classes.
