@@ -3,7 +3,7 @@
 module Calc where
 
 import ExprT
---import Parser
+import Parser
 import StackVM
 import qualified Data.Map as M
 
